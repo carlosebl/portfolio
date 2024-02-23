@@ -7,5 +7,10 @@ export const GithubSecao = styled.div`
 
   img {
     height: 180px;
+
+    @media (max-width: 768px) {
+      height: auto;
+      max-width: 100%;
+    }
   }
 `
